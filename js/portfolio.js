@@ -3,6 +3,10 @@ const currentYear = new Date().getFullYear();
 currentYearElement.textContent = currentYear;
 // add class navbarDark on navbar scroll
 const header = document.querySelector('.navbar');
+function toggleMenu() {
+    var navbarCollapse = document.querySelector('.navbar-collapse');
+    navbarCollapse.style.display = (navbarCollapse.style.display === 'none') ? 'block' : 'none';
+}
 
 window.onscroll = function() {
     var top = window.scrollY;

@@ -24,7 +24,7 @@
 
 /* hero background image */
 .bgimage {
-    height:101vh;
+    height:100%;
     background-size:cover;
     position:relative;
 
